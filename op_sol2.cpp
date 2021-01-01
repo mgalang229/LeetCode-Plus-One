@@ -14,7 +14,7 @@ public:
         //if all the elements in the original vector are zero, then
         //create a new vector with the size of the original plus one
         //assign 1 to the first element
-        //explanation: this is like adding 1 in the front of the vector
+        //explanation: this is like adding 1 in front of the new vector
         vector<int> ans((int)digits.size()+1, 0);
         ans[0]=1;
         return ans;
